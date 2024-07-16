@@ -120,6 +120,17 @@ body{
 
 @media screen and (max-width:670px)
 {
+
+    body{
+        background-image: url('images/background-image1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        backdrop-filter: blur(70px);
+       scroll-behavior: smooth;
+    }
+
     .img-container img{
         border-radius: 100%;
         width:48%;
